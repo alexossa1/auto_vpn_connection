@@ -1,4 +1,4 @@
-# AUTOMATIC CONNECTION TO A VON SERVER AND CONNECTION MANAGEMENT
+# AUTOMATIC CONNECTION TO A VPN SERVER AND CONNECTION MANAGEMENT
 
 ## Description
 This repository contains the script to create an automatic vpn connection to a OpenVPN server using a .ovpn file. Also it start and stop the VPN connection accordingly with the internet access status.
