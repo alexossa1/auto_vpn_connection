@@ -44,7 +44,10 @@ sudo npm install pm2@latest -g
 pm2 install pm2-logrotate
 pm2 set pm2-logrotate:max_size 10M
 pm2 set pm2-logrotate:retain 2
+sudo pm2 install pm2-logrotate
+sudo pm2 set pm2-logrotate:max_size 10M
+sudo pm2 set pm2-logrotate:retain 2
 sudo env PATH=$PATH:/usr/local/bin /usr/local/lib/node_modules/pm2/bin/pm2 startup systemd -u $USER --hp /home/$USER
 sudo pm2 startup
-pm2 start internet_checker.sh --name internetChecker
-pm2 save
+sudo pm2 start internet_checker.sh --name internetChecker
+sudo pm2 save
